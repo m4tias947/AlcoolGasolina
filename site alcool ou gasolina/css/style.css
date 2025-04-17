@@ -1,0 +1,22 @@
+.fundo {
+    margin: 0;
+    padding: 0;
+    background-image: url('/img/4k-black-car-in-darkness-d3bv6yjm1nr0frgn.jpg'); /* Coloque o caminho da sua imagem aqui */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: darkgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+ 
+  .butao{
+    display: flex;
+    flex-direction: column;
+    width:200px;
+    align-items: center;
+    justify-content: center;
+
+  }
