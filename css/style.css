@@ -1,0 +1,168 @@
+.fundo {
+    margin: 0;
+    padding: 0;
+    background-image: url('../img/4k-black-car-in-darkness-d3bv6yjm1nr0frgn.jpg'); /* Coloque o caminho da sua imagem aqui */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: darkgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .titulo{
+    text-align: center;
+    display: flex;
+    /* margin-right: 25%; */
+    
+  }
+  .caixa-titulo {
+    position: fixed; /* Faz a caixa ficar fixa no topo */
+    top: 0;
+    /* left: 0;
+    right: 0; */
+    width: 100%; /* Usa a largura total da tela */
+    padding: 10px 20px; /* Espaço interno */
+    border: 2px solid darkgray;
+    border-radius: 18px;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    outline: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    z-index: 1000;
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .butao{
+    display: flex;
+    flex-direction: column;
+    width:200px;
+    align-items: center;
+    justify-items: center;
+    border: 80px;
+
+  }
+  .botao{ max-width: 105%;
+    min-width: 105%; /* Establece el ancho al 100% del contenedor */
+    padding: 5px 10px; /* Espaciado interno (más ancho y alto) */
+    border: 2px solid darkgray; /* Borde verde */
+    border-radius: 20px; /* Bordes redondeados */
+    font-size: 16px; /* Tamaño de fuente */
+    color: white; /* Color del texto */
+    background-color: black; /* Fondo gris claro */
+    outline: none; /* Quitar el borde de enfoque (outline) */
+    max-height: 40%;
+    min-height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+    flex-direction: column;
+    /* margin-left: 5%; */
+    transition: border-color 0.3s ease, background-color 0.3s ease; /* Transición suave para el borde y fondo */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+    .bento{width: 40%; /* Establece el ancho al 100% del contenedor */
+      padding: 5px 10px; /* Espaciado interno (más ancho y alto) */
+      border: 2px solid darkgray; /* Borde verde */
+      border-radius: 12px; /* Bordes redondeados */
+      font-size: 16px; /* Tamaño de fuente */
+      color: white; /* Color del texto */
+      background-color: black; /* Fondo gris claro */
+      outline: none; /* Quitar el borde de enfoque (outline) */
+      height: 40%;
+      display: flex;
+      align-items: center;
+    justify-content: center;
+      margin-left: 5%;
+      flex-direction: column;
+      transition: border-color 0.3s ease, background-color 0.3s ease; /* Transición suave para el borde y fondo */
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    #resultado{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    }
+  
+      @media (max-width: 768px) {
+        .titulo {
+            font-size: 20px;
+        }
+
+        input[type="number"] {
+            padding: 8px;
+        }
+
+        .bento {
+            font-size: 16px;
+            padding: 8px 16px;
+        }
+
+        #resultado {
+            font-size: 16px;
+        }
+
+        .caixa-titulo {
+            margin-top: 20px;
+        }
+        
+    }
+
+    @media (max-width: 480px) {
+        .titulo {
+            font-size: 18px;
+        }
+
+        input[type="number"] {
+            font-size: 14px;
+            padding: 8px;
+        }
+
+        .bento {
+            font-size: 14px;
+            padding: 8px 14px;
+        }
+
+        #resultado {
+            font-size: 14px;
+        }
+
+        footer {
+            font-size: 12px;
+        }
+    }
+  #alcool{
+    width: 100%; /* Establece el ancho al 100% del contenedor */
+  padding: 10px 15px; /* Espaciado interno (más ancho y alto) */
+  border: 2px solid darkgray; /* Borde verde */
+  border-radius: 12px; /* Bordes redondeados */
+  font-size: 16px; /* Tamaño de fuente */
+  color: white; /* Color del texto */
+  background-color: black; /* Fondo gris claro */
+  outline: none; /* Quitar el borde de enfoque (outline) */
+  transition: border-color 0.3s ease, background-color 0.3s ease; /* Transición suave para el borde y fondo */
+}
+#gasolina{width: 100%; /* Establece el ancho al 100% del contenedor */
+  padding: 10px 15px; /* Espaciado interno (más ancho y alto) */
+  border: 2px solid darkgray; /* Borde verde */
+  border-radius: 12px; /* Bordes redondeados */
+  font-size: 16px; /* Tamaño de fuente */
+  color: white; /* Color del texto */
+  background-color: black; /* Fondo gris claro */
+  outline: none; /* Quitar el borde de enfoque (outline) */
+  transition: border-color 0.3s ease, background-color 0.3s ease; /* Transición suave para el borde y fondo */
+}
+footer{
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+}

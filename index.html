@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/WhatsApp Image 2025-04-21 at 16.36.43.jpeg" type="image/x-icon">
+</head>
+<body class="fundo">
+    <header class="caixa-titulo">
+        <h3 class="titulo">Qual compensa mais Alcool ou Gasolina ?</h3>
+        <p>
+            O site tem como objetivo indentificar o meio mais viável para a locomoção calculando seus valores.
+            <br>
+            Preencha os espaços com os preços dos combustíveis designados!
+        </p>
+    </header>
+    <main>
+        <div class="butao">
+            <form>
+                <label>Alcool:</label>
+                <input type="number" id="alcool" /><br>
+                <label>Gasolina:</label>
+                <input type="number" id="gasolina" /><br>
+            </form>
+        </div>
+        <div class="botao">
+            <button class="bento" onclick="calcular()">calcular</button>
+            <P id="resultado"></P>
+        </div>
+    </main>
+</body>
+<script>
+    function calcular() {
+        let alcool = Number(document.getElementById("alcool").value);
+        let gasolina = Number(document.getElementById("gasolina").value);
+
+        if (alcool < (gasolina * 0.7)) {
+            // alert("compensa abastecer com alcool");
+            resultado.innerHTML = "compensa abastecer <br> com alcool";
+        }
+        else {
+            // alert("compensa abastecer com gasolina");
+            resultado.innerHTML = "compensa abastecer <br> com gasolina";
+        }
+
+    }
+</script>
+
+</html>
+<footer>
+    <p>&copy;Powered by MTECH</p>
+</footer>
+</body>
+
+</html>
