@@ -90,53 +90,49 @@
     padding: 0;
     }
   
-      @media (max-width: 768px) {
-        .titulo {
-            font-size: 20px;
-        }
+     
+@media (max-width: 768px) {
 
-        input[type="number"] {
-            padding: 8px;
-        }
+  .titulo {
+    font-size: 30px;
+  }
 
-        .bento {
-            font-size: 16px;
-            padding: 8px 16px;
-        }
+  .legenda {
+    text-align: center;
+  }
 
-        #resultado {
-            font-size: 16px;
-        }
+  .butao {
+    align-items: center;
+    width: 88%;
+  }
 
-        .caixa-titulo {
-            margin-top: 20px;
-        }
-        
-    }
+  .botao {
+    align-items: center;
+    width: 10% !important;
+    padding-right: 14px;
+    display: flex;
+  }
 
-    @media (max-width: 480px) {
-        .titulo {
-            font-size: 18px;
-        }
+  .bento {
+    width: 40%;
+    padding: 5px 10px;
+    border: 2px solid darkgray;
+    border-radius: 12px;
+    font-size: 16px;
+    color: white;
+    background-color: black;
+    outline: none;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5%;
+    flex-direction: column;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
 
-        input[type="number"] {
-            font-size: 14px;
-            padding: 8px;
-        }
 
-        .bento {
-            font-size: 14px;
-            padding: 8px 14px;
-        }
-
-        #resultado {
-            font-size: 14px;
-        }
-
-        footer {
-            font-size: 12px;
-        }
-    }
+}
   #alcool{
     width: 100%; /* Establece el ancho al 100% del contenedor */
   padding: 10px 15px; /* Espaciado interno (más ancho y alto) */
